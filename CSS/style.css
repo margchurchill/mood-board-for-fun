@@ -1,0 +1,104 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+/* Header + Description */
+.contact {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px 8px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 10px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+    height: 50px;
+    font-size: 14px;
+}
+.contact:hover {
+    background-color: #D9716F;
+    box-shadow: 0px 15px 20px rgba(217,113,111,0.5);
+    color: #fff;
+    transform: translateY(-4px);
+}
+/* Mood Board Images */
+
+/* Footer */
+.footer {
+    display: grid;
+    grid-template-areas:
+        "contactInfo socialMedia aboutMe";
+    grid-template-rows: 300px;
+    border: 2px solid #D9716F;
+}
+.contactInfo {
+    grid-area: contactInfo;
+    padding: 20px;
+    margin: auto;
+}
+.aboutMe {
+    grid-area: aboutMe;
+    padding: 20px;
+    margin: auto;
+}
+.margie {
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+}
+
+/* Social Media Icons */
+.socialMedia {
+    grid-area: socialMedia;
+    padding-top: 20px;
+    display: grid;
+    grid-template-areas:
+        "portfolio gitHub linkedIn"
+        "twitter facebook email";
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px;
+    text-align: center;
+    margin: auto;
+}
+.portfolio {
+    grid-area: portfolio;
+    text-align: center;
+}
+.gitHub {
+    grid-area: gitHub;
+}
+.linkedIn {
+    grid-area: gitHub;
+}
+.twitter {
+    grid-area: twitter;
+}
+.facebook {
+    grid-area: facebook;
+}
+.email {
+    grid-area: email;
+}
+.icon {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px 8px 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 10px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.icon:hover {
+    background-color: #D9716F;
+    box-shadow: 0px 15px 20px rgba(217,113,111,0.5);
+    color: #fff;
+    transform: translateY(-4px);
+}
