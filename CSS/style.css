@@ -1,6 +1,9 @@
 html {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    max-width: 100%;
+    margin: auto;
 }
+
 /* Header + Description */
 .contact {
     background-color: #fff;
@@ -19,20 +22,38 @@ html {
     font-size: 14px;
 }
 .contact:hover {
-    background-color: #D9716F;
-    box-shadow: 0px 15px 20px rgba(217,113,111,0.5);
+    background-color: #BAB79F;
+    box-shadow: 0px 15px 20px rgba(186,183,159,0.5);
     color: #fff;
     transform: translateY(-4px);
 }
+.intro {
+    margin: auto auto;
+    padding-top: 100px;
+}
 /* Mood Board Images */
-
+.moodBoard {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin: auto;
+    max-width: 1200px;
+}
+.moodBoard img {
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    object-fit: cover;
+}
 /* Footer */
 .footer {
     display: grid;
     grid-template-areas:
         "contactInfo socialMedia aboutMe";
     grid-template-rows: 300px;
-    border: 2px solid #D9716F;
+    border-top: 2px solid #BAB79F;
+    margin-top: 100px;
+    background-color: #BAB79F;
+    color: #726870;
 }
 .contactInfo {
     grid-area: contactInfo;
@@ -88,7 +109,7 @@ html {
     border: none;
     cursor: pointer;
     padding: 8px 12px 8px 12px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-weight: 300;
     margin: 10px;
     border-radius: 45px;
@@ -97,8 +118,8 @@ html {
     outline: none;
 }
 .icon:hover {
-    background-color: #D9716F;
-    box-shadow: 0px 15px 20px rgba(217,113,111,0.5);
+    background-color: #726870;
+    box-shadow: 0px 15px 20px rgba(114, 104, 112,0.5);
     color: #fff;
     transform: translateY(-4px);
 }
